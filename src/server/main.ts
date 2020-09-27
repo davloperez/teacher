@@ -15,7 +15,7 @@ server.get('/', function (req, reply) {
     return reply.sendFile('index.html', join(__dirname, clientLocalPath));
 } as any);
 
-server.listen(+process.env.PORT, (error, address) => {
+server.listen(+process.env.PORT, '0.0.0.0', (error, address) => {
     if (error) {
         server.log.error(error);
         process.exit(1);

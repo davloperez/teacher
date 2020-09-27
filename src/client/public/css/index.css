@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.app-name {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.room-id {
+    display: inline-block;
+    background-color: paleturquoise;
+    font-size: large;
+    margin-left: 20px;
+}
+
+.header-main {
+    display: block;
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.main {
+    height: calc(100% - 48px);
+    width: 100%;
+    background-color: paleturquoise;
+    display: grid;
+    grid-template-columns: 1fr 48px 1fr;
+}
+
+.toolbox {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: white;
+}

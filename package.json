@@ -1,0 +1,30 @@
+{
+  "name": "teacher",
+  "version": "0.0.1",
+  "description": "Real time communication and utilities for personal teachers",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "ts-node ./src/server/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davloperez/teacher.git"
+  },
+  "keywords": [],
+  "author": "David López Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davloperez/teacher/issues"
+  },
+  "homepage": "https://github.com/davloperez/teacher#readme",
+  "dependencies": {
+    "fastify": "3.4.1",
+    "fastify-static": "3.2.0",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "ES2019",
+        "alwaysStrict": true,
+        "lib": [
+            "ES2019"
+        ],
+        "moduleResolution": "Node"
+    }
+}
